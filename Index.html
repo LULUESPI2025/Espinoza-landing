@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lourdes Espinoza | Social Media</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000;
+      color: white;
+    }
+    header {
+      background-color: #e5109c;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #DFCDF9;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    h1, h2 {
+      color: #DFCDF9;
+    }
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .service {
+      margin-bottom: 2rem;
+      background: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .price {
+      color: #e5109c;
+      font-weight: bold;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea, select {
+      padding: 0.75rem;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.75rem;
+      background-color: #e5109c;
+      color: #fff;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    button:hover {
+      background-color: #c40e85;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      background: #111;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>We help brands shine by connecting their products with the public and highlighting the talent and passion behind each creation.</h1>
+    <nav>
+      <a href="#">Lourdes Espinoza</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://tiktok.com" target="_blank">TikTok</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Servicios</h2>
+
+    <div class="service">
+      <h3>The Social Spark (Consulta de 2 Horas)</h3>
+      <p>Una sesión informativa para auditar tus redes sociales, mejorar tu contenido o generar nuevas ideas.</p>
+      <p class="price">💰 $250 por sesión</p>
+    </div>
+
+    <div class="service">
+      <h3>Campaña en Caja (Solución Social Única)</h3>
+      <p>Estrategia específica para lanzar tu próxima gran campaña en redes sociales. Desde la definición de objetivos hasta contenido.</p>
+      <p class="price">💰 Desde $1,500 por campaña</p>
+    </div>
+
+    <div class="service">
+      <h3>Interno, Bajo Demanda (Colaboración a Largo Plazo)</h3>
+      <p>Soporte continuo e interno en redes sociales. Trabajo como parte de tu equipo hasta por 12 meses.</p>
+      <p class="price">💰 Desde $4,500 al mes</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contáctame</h2>
+    <p>Cuéntame sobre tu proyecto o escríbeme a <a href="mailto:lourdes@email.com" style="color:#DFCDF9">lourdes@email.com</a>.</p>
+    
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Nombre" required />
+      <input type="email" name="email" placeholder="Correo electrónico" required />
+      <select name="service">
+        <option value="">Selecciona un servicio</option>
+        <option value="The Social Spark">The Social Spark</option>
+        <option value="Campaña en Caja">Campaña en Caja</option>
+        <option value="Interno, Bajo Demanda">Interno, Bajo Demanda</option>
+      </select>
+      <textarea name="message" rows="4" placeholder="Tu mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    ¡Gracias por tu interés! Te responderé en 1-3 días hábiles.
+  </footer>
+</body>
+</html>
